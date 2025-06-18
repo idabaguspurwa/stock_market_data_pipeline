@@ -4,7 +4,7 @@
 
 ## Overview
 
-This project implements a comprehensive stock market data pipeline using Apache Airflow, Apache Spark, MinIO, and Docker. The pipeline extracts stock price data from external APIs, processes and transforms the data using Spark, stores it in MinIO object storage, and loads it into a data warehouse for analysis.
+This project implements a comprehensive stock market data pipeline using Apache Airflow, Apache Spark, MinIO, and Docker. The pipeline extracts NVDA stock price data from Yahoo Finance API, processes and transforms the data using Spark, stores it in MinIO object storage, and loads it into a data warehouse for analysis.
 
 ## Architecture
 
